@@ -31,5 +31,5 @@ app.use('./files', express.static(path.resolve(__dirname, "..", "tmp")))
 
 app.use(express.urlencoded({extended: true})); // permite que possamos enviar arquivos nas requisições
 app.use(require("./routes"));
-server.listen(69);
+server.listen(process.env.PORT || 69);
  
