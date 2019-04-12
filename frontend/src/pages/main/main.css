@@ -1,0 +1,48 @@
+
+#main-container{
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#main-container form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+#main-container form input{
+    margin: 15px 15px 8px 15px;
+    width: 100%;
+    font-size: 1.4em;
+    height: 45px;
+    border: 2px solid #6060ff;
+    text-align: center;
+}
+#main-container form input:focus {
+    border: 2px dashed #00aaf1;
+}
+#main-container form button{
+    background-color: #00AAF1;
+    color: #000;
+    width: 100%;
+    font-weight: 700;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 1.1em; 
+    cursor: pointer;
+}
+
+#main-container form button:hover {
+    transform: scale(1.08);
+    background-color: #0088F1;
+    transition: 0.3s;
+}

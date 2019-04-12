@@ -3,6 +3,7 @@ const File = require("../models/File");
 
 class FileController {
     async store(request, response) {
+      console.log(request);
       // cria um arquivo
       const folder = await Folders.findById(request.params.id) ;
       console.log(request.file);
